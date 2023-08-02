@@ -1,6 +1,6 @@
-# KDE Connect - desktop app
+# Gnoppix Connect - desktop app
 
-KDE Connect is a multi-platform app that allows your devices to communicate (eg: your phone and your computer).
+Gnoppix Connect is a multi-platform app that allows your devices to communicate (eg: your phone and your computer).
 
 ## (Some) Features
 - **Shared clipboard**: copy and paste between your phone and your computer (or any other device).
@@ -18,7 +18,7 @@ All this is done completely wirelessly, utilising TLS encryption.
 A user-focused wiki can be found on [KDE Userbase](https://userbase.kde.org/KDEConnect)
 
 ## Supported platforms
-- Computers running Linux with Plasma 5, Gnome 3, Elementary OS... any distro with Qt5 support :)
+-  Gnoppix Desktops with installed Plasma 5, Gnome 3, .. or any other distro with Qt5 support :)
 - Android, by installing the KDE Connect app from the [Play Store](https://play.google.com/store/apps/details?id=org.kde.kdeconnect_tp) or [F-Droid](https://f-droid.org/repository/browse/?fdid=org.kde.kdeconnect_tp).
 - iPhone and iPad, by installing from the [App Store](https://apps.apple.com/us/app/kde-connect/id1580245991)
 - Computers running Windows, by installing from the [Microsoft Store](https://apps.microsoft.com/store/detail/kde-connect/9N93MRMSXBF0)
@@ -76,5 +76,3 @@ Please know that all translations for all KDE apps are handled by the [localizat
 
 ## License
 [GNU GPL v2](https://www.gnu.org/licenses/gpl-2.0.html) and [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.html)
-
-If you are reading this from Github, you should know that this is just a mirror of the [KDE Project repo](https://invent.kde.org/network/kdeconnect-kde).
