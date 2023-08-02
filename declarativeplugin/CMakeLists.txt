@@ -1,0 +1,42 @@
+ecm_add_qml_module(kdeconnectdeclarativeplugin URI "org.kde.kdeconnect" VERSION 1.0)
+
+target_sources(kdeconnectdeclarativeplugin PRIVATE
+    kdeconnectdeclarativeplugin.cpp
+    responsewaiter.cpp
+    objectfactory.cpp
+    pointerlocker.cpp
+)
+
+ecm_target_qml_sources(kdeconnectdeclarativeplugin
+    SOURCES
+    qml/DBusProperty.qml
+    qml/PluginChecker.qml
+    qml/RemoteKeyboard.qml
+    VERSION 1.0)
+
+if(UNIX AND NOT APPLE)
+
+    if (QT_MAJOR_VERSION EQUAL "5")
+        ecm_add_qtwayland_client_protocol(wayland_SRCS
+            PROTOCOL ${WaylandProtocols_DATADIR}/unstable/pointer-constraints/pointer-constraints-unstable-v1.xml
+            BASENAME pointer-constraints-unstable-v1
+        )
+        ecm_add_qtwayland_client_protocol(wayland_SRCS
+            PROTOCOL ${WaylandProtocols_DATADIR}/unstable/relative-pointer/relative-pointer-unstable-v1.xml
+            BASENAME relative-pointer-unstable-v1
+        )
+    else()
+        qt6_generate_wayland_protocol_client_sources(kdeconnectdeclarativeplugin FILES
+            ${WaylandProtocols_DATADIR}/unstable/pointer-constraints/pointer-constraints-unstable-v1.xml)
+        qt6_generate_wayland_protocol_client_sources(kdeconnectdeclarativeplugin FILES
+            ${WaylandProtocols_DATADIR}/unstable/relative-pointer/relative-pointer-unstable-v1.xml)
+    endif()
+
+    target_sources(kdeconnectdeclarativeplugin PRIVATE ${wayland_SRCS})
+    target_link_libraries(kdeconnectdeclarativeplugin PRIVATE Wayland::Client Qt::WaylandClient Qt::GuiPrivate)
+    target_sources(kdeconnectdeclarativeplugin PUBLIC pointerlockerwayland.cpp)
+endif()
+
+target_link_libraries(kdeconnectdeclarativeplugin PRIVATE Qt::Quick kdeconnectinterfaces kdeconnectcore)
+
+ecm_finalize_qml_module(kdeconnectdeclarativeplugin DESTINATION ${KDE_INSTALL_QMLDIR})

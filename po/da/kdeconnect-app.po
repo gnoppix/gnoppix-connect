@@ -1,0 +1,256 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kdeconnect-kde package.
+#
+# Martin Schlander <mschlander@opensuse.org>, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeconnect-kde\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-07-24 07:33+0000\n"
+"PO-Revision-Date: 2020-07-21 18:27+0200\n"
+"Last-Translator: Martin Schlander <mschlander@opensuse.org>\n"
+"Language-Team: Danish <kde-i18n-doc@kde.org>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 20.04.2\n"
+
+#: main.cpp:32 main.cpp:34
+#, kde-format
+msgid "KDE Connect"
+msgstr "KDE Connect"
+
+#: main.cpp:36
+#, kde-format
+msgid "(c) 2015, Aleix Pol Gonzalez"
+msgstr "(C) 2015 Aleix Pol Gonzalez"
+
+#: main.cpp:37
+#, kde-format
+msgid "Aleix Pol Gonzalez"
+msgstr "Aleix Pol Gonzalez"
+
+#: main.cpp:37
+#, kde-format
+msgid "Maintainer"
+msgstr "Vedligeholder"
+
+#: main.cpp:38
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Martin Schlander"
+
+#: main.cpp:38
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "mschlander@opensuse.org"
+
+#: main.cpp:54
+#, kde-format
+msgid "URL to share"
+msgstr ""
+
+#: qml/DevicePage.qml:23
+#, kde-format
+msgid "Unpair"
+msgstr "Fjern parring"
+
+#: qml/DevicePage.qml:28
+#, kde-format
+msgid "Send Ping"
+msgstr "Send ping"
+
+#: qml/DevicePage.qml:36 qml/PluginSettings.qml:15
+#, kde-format
+msgid "Plugin Settings"
+msgstr ""
+
+#: qml/DevicePage.qml:60
+#, kde-format
+msgid "Multimedia control"
+msgstr "Multimediekontrol"
+
+#: qml/DevicePage.qml:67
+#, kde-format
+msgid "Remote input"
+msgstr "Eksternt input"
+
+#: qml/DevicePage.qml:74 qml/presentationRemote.qml:15
+#, kde-format
+msgid "Presentation Remote"
+msgstr "Præsentationsfjernbetjening"
+
+#: qml/DevicePage.qml:83 qml/mousepad.qml:44
+#, kde-format
+msgid "Lock"
+msgstr "Lås"
+
+#: qml/DevicePage.qml:83
+#, kde-format
+msgid "Unlock"
+msgstr "Lås op"
+
+#: qml/DevicePage.qml:90
+#, kde-format
+msgid "Find Device"
+msgstr "Find enhed"
+
+#: qml/DevicePage.qml:95 qml/runcommand.qml:16
+#, kde-format
+msgid "Run command"
+msgstr "Kør kommando"
+
+#: qml/DevicePage.qml:104
+#, kde-format
+msgid "Send Clipboard"
+msgstr ""
+
+#: qml/DevicePage.qml:110
+#, kde-format
+msgid "Share File"
+msgstr "Del fil"
+
+#: qml/DevicePage.qml:115 qml/volume.qml:16
+#, kde-format
+msgid "Volume control"
+msgstr "Lydstyrkekontrol"
+
+#: qml/DevicePage.qml:124
+#, kde-format
+msgid "This device is not paired"
+msgstr "Denne enhed er ikke parret"
+
+#: qml/DevicePage.qml:128
+#, fuzzy, kde-format
+#| msgid "Pair"
+msgctxt "Request pairing with a given device"
+msgid "Pair"
+msgstr "Par"
+
+#: qml/DevicePage.qml:135 qml/DevicePage.qml:144
+#, kde-format
+msgid "Pair requested"
+msgstr ""
+
+#: qml/DevicePage.qml:150
+#, kde-format
+msgid "Accept"
+msgstr "Acceptér"
+
+#: qml/DevicePage.qml:156
+#, kde-format
+msgid "Reject"
+msgstr "Afvis"
+
+#: qml/DevicePage.qml:165
+#, kde-format
+msgid "This device is not reachable"
+msgstr "Enheden kan ikke nås"
+
+#: qml/DevicePage.qml:173
+#, kde-format
+msgid "Please choose a file"
+msgstr "Vælg venligst en fil"
+
+#: qml/FindDevicesPage.qml:23
+#, fuzzy, kde-format
+#| msgid "Find Device"
+msgctxt "Title of the page listing the devices"
+msgid "Devices"
+msgstr "Find enhed"
+
+#: qml/FindDevicesPage.qml:38
+#, kde-format
+msgid "No devices found"
+msgstr "Ingen enheder fundet"
+
+#: qml/FindDevicesPage.qml:51
+#, kde-format
+msgid "Remembered"
+msgstr "Husket"
+
+#: qml/FindDevicesPage.qml:53
+#, kde-format
+msgid "Available"
+msgstr "Tilgængelig"
+
+#: qml/FindDevicesPage.qml:55
+#, kde-format
+msgid "Connected"
+msgstr "Forbundet"
+
+#: qml/main.qml:76
+#, kde-format
+msgid "Find devices..."
+msgstr "Find enheder..."
+
+#: qml/main.qml:121 qml/main.qml:124
+#, kde-format
+msgid "Settings"
+msgstr ""
+
+#: qml/mousepad.qml:16
+#, kde-format
+msgid "Remote Control"
+msgstr "Fjernbetjening"
+
+#: qml/mousepad.qml:59
+#, kde-format
+msgid "Press %1 or the left and right mouse buttons at the same time to unlock"
+msgstr ""
+
+#: qml/mpris.qml:19
+#, kde-format
+msgid "Multimedia Controls"
+msgstr "Multimediekontroller"
+
+#: qml/mpris.qml:65
+#, kde-format
+msgid "No players available"
+msgstr "Ingen afspillere tilgængelige"
+
+#: qml/mpris.qml:105
+#, kde-format
+msgid "%1 - %2"
+msgstr "%1 - %2"
+
+#: qml/presentationRemote.qml:20
+#, kde-format
+msgid "Enable Full-Screen"
+msgstr "Aktivér fuldskærm"
+
+#: qml/runcommand.qml:21
+#, kde-format
+msgid "Edit commands"
+msgstr "Redigér kommandoer"
+
+#: qml/runcommand.qml:24
+#, kde-format
+msgid "You can edit commands on the connected device"
+msgstr "Du kan redigere kommandoer på den forbundne enhed"
+
+#: qml/runcommand.qml:43
+#, kde-format
+msgid "No commands defined"
+msgstr "Ingen kommadoer defineret"
+
+#: qml/Settings.qml:13
+#, kde-format
+msgctxt "@title:window"
+msgid "Settings"
+msgstr ""
+
+#: qml/Settings.qml:35
+#, kde-format
+msgid "Device name"
+msgstr ""
+
+#: qml/Settings.qml:52
+#, fuzzy, kde-format
+#| msgid "KDE Connect"
+msgid "About KDE Connect"
+msgstr "KDE Connect"

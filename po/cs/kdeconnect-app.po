@@ -1,0 +1,253 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kdeconnect-kde package.
+# Vit Pelcak <vit@pelcak.org>, 2020, 2021, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeconnect-kde\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-07-24 07:33+0000\n"
+"PO-Revision-Date: 2023-06-12 16:24+0200\n"
+"Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
+"Language-Team: Czech <kde-i18n-doc@kde.org>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Lokalize 23.04.2\n"
+
+#: main.cpp:32 main.cpp:34
+#, kde-format
+msgid "KDE Connect"
+msgstr "KDE Connect"
+
+#: main.cpp:36
+#, kde-format
+msgid "(c) 2015, Aleix Pol Gonzalez"
+msgstr "(C) 2015 Aleix Pol Gonzalez"
+
+#: main.cpp:37
+#, kde-format
+msgid "Aleix Pol Gonzalez"
+msgstr "Aleix Pol Gonzalez"
+
+#: main.cpp:37
+#, kde-format
+msgid "Maintainer"
+msgstr "Správce"
+
+#: main.cpp:38
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Vít Pelčák"
+
+#: main.cpp:38
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "vit@pelcak.org"
+
+#: main.cpp:54
+#, kde-format
+msgid "URL to share"
+msgstr "URL ke sdílení"
+
+#: qml/DevicePage.qml:23
+#, kde-format
+msgid "Unpair"
+msgstr "Zrušit párování"
+
+#: qml/DevicePage.qml:28
+#, kde-format
+msgid "Send Ping"
+msgstr "Poslat ping"
+
+#: qml/DevicePage.qml:36 qml/PluginSettings.qml:15
+#, kde-format
+msgid "Plugin Settings"
+msgstr "Nastavení modulů"
+
+#: qml/DevicePage.qml:60
+#, kde-format
+msgid "Multimedia control"
+msgstr "Ovládání multimédií"
+
+#: qml/DevicePage.qml:67
+#, kde-format
+msgid "Remote input"
+msgstr "Vzdálený vstup"
+
+#: qml/DevicePage.qml:74 qml/presentationRemote.qml:15
+#, kde-format
+msgid "Presentation Remote"
+msgstr "Ovladač prezentace"
+
+#: qml/DevicePage.qml:83 qml/mousepad.qml:44
+#, kde-format
+msgid "Lock"
+msgstr "Uzamknout"
+
+#: qml/DevicePage.qml:83
+#, kde-format
+msgid "Unlock"
+msgstr "Odemknout"
+
+#: qml/DevicePage.qml:90
+#, kde-format
+msgid "Find Device"
+msgstr "Najít zařízení"
+
+#: qml/DevicePage.qml:95 qml/runcommand.qml:16
+#, kde-format
+msgid "Run command"
+msgstr "Spustit příkaz"
+
+#: qml/DevicePage.qml:104
+#, kde-format
+msgid "Send Clipboard"
+msgstr "Poslat schránku"
+
+#: qml/DevicePage.qml:110
+#, kde-format
+msgid "Share File"
+msgstr "Sdílet soubor"
+
+#: qml/DevicePage.qml:115 qml/volume.qml:16
+#, kde-format
+msgid "Volume control"
+msgstr "Ovládání hlasitosti"
+
+#: qml/DevicePage.qml:124
+#, kde-format
+msgid "This device is not paired"
+msgstr "Toto zařízení není spárováno"
+
+#: qml/DevicePage.qml:128
+#, kde-format
+msgctxt "Request pairing with a given device"
+msgid "Pair"
+msgstr ""
+
+#: qml/DevicePage.qml:135 qml/DevicePage.qml:144
+#, kde-format
+msgid "Pair requested"
+msgstr "Bylo vyžádáno párování"
+
+#: qml/DevicePage.qml:150
+#, kde-format
+msgid "Accept"
+msgstr "Přijmout"
+
+#: qml/DevicePage.qml:156
+#, kde-format
+msgid "Reject"
+msgstr "Odmítnout"
+
+#: qml/DevicePage.qml:165
+#, kde-format
+msgid "This device is not reachable"
+msgstr "Toto zařízení je nedostupné"
+
+#: qml/DevicePage.qml:173
+#, kde-format
+msgid "Please choose a file"
+msgstr "Prosím, vyberte soubor"
+
+#: qml/FindDevicesPage.qml:23
+#, kde-format
+msgctxt "Title of the page listing the devices"
+msgid "Devices"
+msgstr ""
+
+#: qml/FindDevicesPage.qml:38
+#, kde-format
+msgid "No devices found"
+msgstr "Nebyla nalezena žádná zařízení"
+
+#: qml/FindDevicesPage.qml:51
+#, kde-format
+msgid "Remembered"
+msgstr "Zapamatovaná"
+
+#: qml/FindDevicesPage.qml:53
+#, kde-format
+msgid "Available"
+msgstr "Dostupná"
+
+#: qml/FindDevicesPage.qml:55
+#, kde-format
+msgid "Connected"
+msgstr "Připojená"
+
+#: qml/main.qml:76
+#, kde-format
+msgid "Find devices..."
+msgstr "Najít zařízení..."
+
+#: qml/main.qml:121 qml/main.qml:124
+#, kde-format
+msgid "Settings"
+msgstr "Nastavení"
+
+#: qml/mousepad.qml:16
+#, kde-format
+msgid "Remote Control"
+msgstr "Dálkové ovládání"
+
+#: qml/mousepad.qml:59
+#, kde-format
+msgid "Press %1 or the left and right mouse buttons at the same time to unlock"
+msgstr "Pro odemčení stiskněte %1 nebo levé a pravé tlačítko myši najednou"
+
+#: qml/mpris.qml:19
+#, kde-format
+msgid "Multimedia Controls"
+msgstr "Ovládání multimédií"
+
+#: qml/mpris.qml:65
+#, kde-format
+msgid "No players available"
+msgstr "Nejsou dostupné žádné přehrávače"
+
+#: qml/mpris.qml:105
+#, kde-format
+msgid "%1 - %2"
+msgstr "%1 - %2"
+
+#: qml/presentationRemote.qml:20
+#, kde-format
+msgid "Enable Full-Screen"
+msgstr "Povolit celou obrazovku"
+
+#: qml/runcommand.qml:21
+#, kde-format
+msgid "Edit commands"
+msgstr "Upravit příkazy"
+
+#: qml/runcommand.qml:24
+#, kde-format
+msgid "You can edit commands on the connected device"
+msgstr "Můžete upravit příkazy na připojeném zařízení"
+
+#: qml/runcommand.qml:43
+#, kde-format
+msgid "No commands defined"
+msgstr "Nebyly zadány žádné příkazy"
+
+#: qml/Settings.qml:13
+#, kde-format
+msgctxt "@title:window"
+msgid "Settings"
+msgstr "Nastavení"
+
+#: qml/Settings.qml:35
+#, kde-format
+msgid "Device name"
+msgstr "Název zařízení"
+
+#: qml/Settings.qml:52
+#, kde-format
+msgid "About KDE Connect"
+msgstr "O aplikaci KDE Connect"

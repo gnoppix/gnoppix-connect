@@ -1,0 +1,257 @@
+# Fumiaki Okushi <fumiaki.okushi@gmail.com>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeconnect-kde\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-07-24 07:33+0000\n"
+"PO-Revision-Date: 2021-09-25 15:19-0700\n"
+"Last-Translator: Fumiaki Okushi <fumiaki.okushi@gmail.com>\n"
+"Language-Team: Japanese <kde-jp@kde.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+"X-Generator: Lokalize 21.08.1\n"
+
+#: main.cpp:32 main.cpp:34
+#, kde-format
+msgid "KDE Connect"
+msgstr ""
+
+#: main.cpp:36
+#, kde-format
+msgid "(c) 2015, Aleix Pol Gonzalez"
+msgstr ""
+
+#: main.cpp:37
+#, kde-format
+msgid "Aleix Pol Gonzalez"
+msgstr ""
+
+#: main.cpp:37
+#, kde-format
+msgid "Maintainer"
+msgstr ""
+
+#: main.cpp:38
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#: main.cpp:38
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: main.cpp:54
+#, kde-format
+msgid "URL to share"
+msgstr ""
+
+#: qml/DevicePage.qml:23
+#, kde-format
+msgid "Unpair"
+msgstr "ペア解除"
+
+#: qml/DevicePage.qml:28
+#, kde-format
+msgid "Send Ping"
+msgstr "ping を送信"
+
+#: qml/DevicePage.qml:36 qml/PluginSettings.qml:15
+#, kde-format
+msgid "Plugin Settings"
+msgstr "プラグイン設定"
+
+#: qml/DevicePage.qml:60
+#, kde-format
+msgid "Multimedia control"
+msgstr "マルチメディアコントロール"
+
+#: qml/DevicePage.qml:67
+#, kde-format
+msgid "Remote input"
+msgstr "リモート入力"
+
+#: qml/DevicePage.qml:74 qml/presentationRemote.qml:15
+#, kde-format
+msgid "Presentation Remote"
+msgstr "プレゼンテーション"
+
+#: qml/DevicePage.qml:83 qml/mousepad.qml:44
+#, kde-format
+msgid "Lock"
+msgstr "ロック"
+
+#: qml/DevicePage.qml:83
+#, kde-format
+msgid "Unlock"
+msgstr "ロック解除"
+
+#: qml/DevicePage.qml:90
+#, kde-format
+msgid "Find Device"
+msgstr "デバイスを探す"
+
+#: qml/DevicePage.qml:95 qml/runcommand.qml:16
+#, kde-format
+msgid "Run command"
+msgstr "コマンド実行"
+
+#: qml/DevicePage.qml:104
+#, kde-format
+msgid "Send Clipboard"
+msgstr ""
+
+#: qml/DevicePage.qml:110
+#, kde-format
+msgid "Share File"
+msgstr "ファイル共有 "
+
+#: qml/DevicePage.qml:115 qml/volume.qml:16
+#, kde-format
+msgid "Volume control"
+msgstr "ボリューム操作"
+
+#: qml/DevicePage.qml:124
+#, kde-format
+msgid "This device is not paired"
+msgstr "このデバイスはペアリングされていません"
+
+#: qml/DevicePage.qml:128
+#, fuzzy, kde-format
+#| msgid "Pair"
+msgctxt "Request pairing with a given device"
+msgid "Pair"
+msgstr "ペア"
+
+#: qml/DevicePage.qml:135 qml/DevicePage.qml:144
+#, kde-format
+msgid "Pair requested"
+msgstr "ペアリング要求"
+
+#: qml/DevicePage.qml:150
+#, kde-format
+msgid "Accept"
+msgstr "承諾"
+
+#: qml/DevicePage.qml:156
+#, kde-format
+msgid "Reject"
+msgstr "拒絶"
+
+#: qml/DevicePage.qml:165
+#, kde-format
+msgid "This device is not reachable"
+msgstr "このデバイスに到達できません"
+
+#: qml/DevicePage.qml:173
+#, kde-format
+msgid "Please choose a file"
+msgstr "ファイルを選択してください"
+
+#: qml/FindDevicesPage.qml:23
+#, fuzzy, kde-format
+#| msgid "Find Device"
+msgctxt "Title of the page listing the devices"
+msgid "Devices"
+msgstr "デバイスを探す"
+
+#: qml/FindDevicesPage.qml:38
+#, kde-format
+msgid "No devices found"
+msgstr "デバイスが見つかりません"
+
+#: qml/FindDevicesPage.qml:51
+#, kde-format
+msgid "Remembered"
+msgstr "記憶済み"
+
+#: qml/FindDevicesPage.qml:53
+#, kde-format
+msgid "Available"
+msgstr "利用可能"
+
+#: qml/FindDevicesPage.qml:55
+#, kde-format
+msgid "Connected"
+msgstr "接続済み"
+
+#: qml/main.qml:76
+#, kde-format
+msgid "Find devices..."
+msgstr "デバイスを探す..."
+
+#: qml/main.qml:121 qml/main.qml:124
+#, fuzzy, kde-format
+#| msgid "Plugin Settings"
+msgid "Settings"
+msgstr "プラグイン設定"
+
+#: qml/mousepad.qml:16
+#, kde-format
+msgid "Remote Control"
+msgstr "リモートコントロール"
+
+#: qml/mousepad.qml:59
+#, fuzzy, kde-format
+#| msgid "Press the left and right mouse buttons at the same time to unlock"
+msgid "Press %1 or the left and right mouse buttons at the same time to unlock"
+msgstr "左右のマウスボタンを同時に押してロック解除"
+
+#: qml/mpris.qml:19
+#, kde-format
+msgid "Multimedia Controls"
+msgstr "マルチメディアコントロール"
+
+#: qml/mpris.qml:65
+#, kde-format
+msgid "No players available"
+msgstr "利用可能なプレーヤーはありません"
+
+#: qml/mpris.qml:105
+#, kde-format
+msgid "%1 - %2"
+msgstr ""
+
+#: qml/presentationRemote.qml:20
+#, kde-format
+msgid "Enable Full-Screen"
+msgstr "フルスクリーンを有効化"
+
+#: qml/runcommand.qml:21
+#, kde-format
+msgid "Edit commands"
+msgstr "コマンド編集"
+
+#: qml/runcommand.qml:24
+#, kde-format
+msgid "You can edit commands on the connected device"
+msgstr "接続したデバイスのコマンドを編集可能です"
+
+#: qml/runcommand.qml:43
+#, kde-format
+msgid "No commands defined"
+msgstr "コマンドが定義されていません"
+
+#: qml/Settings.qml:13
+#, fuzzy, kde-format
+#| msgid "Plugin Settings"
+msgctxt "@title:window"
+msgid "Settings"
+msgstr "プラグイン設定"
+
+#: qml/Settings.qml:35
+#, kde-format
+msgid "Device name"
+msgstr ""
+
+#: qml/Settings.qml:52
+#, kde-format
+msgid "About KDE Connect"
+msgstr ""

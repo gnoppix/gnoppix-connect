@@ -1,0 +1,190 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kdeconnect-kde package.
+# Adrián Chaves (Gallaecio) <adrian@chaves.io>, 2020, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeconnect-kde\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-07-24 07:33+0000\n"
+"PO-Revision-Date: 2023-07-29 07:53+0200\n"
+"Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.io>\n"
+"Language-Team: Galician <proxecto@trasno.gal>\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 23.04.3\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Adrian Chaves (Gallaecio)"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "adrian@chaves.io"
+
+#: deviceindicator.cpp:53
+#, kde-format
+msgid "Browse device"
+msgstr "Examinar o dispositivo"
+
+#: deviceindicator.cpp:67
+#, kde-format
+msgid "Send clipboard"
+msgstr "Enviar o portapapeis"
+
+#: deviceindicator.cpp:81
+#, kde-format
+msgid "Ring device"
+msgstr "Facer soar o dispositivo"
+
+#: deviceindicator.cpp:95
+#, kde-format
+msgid "Get a photo"
+msgstr "Obter unha foto"
+
+#: deviceindicator.cpp:115
+#, kde-format
+msgid "Send a file/URL"
+msgstr "Enviar un ficheiro ou URL"
+
+#: deviceindicator.cpp:125
+#, kde-format
+msgid "SMS Messages..."
+msgstr "Mensaxes SMS…"
+
+#: deviceindicator.cpp:138
+#, kde-format
+msgid "Run command"
+msgstr "Executar unha orde"
+
+#: deviceindicator.cpp:140
+#, kde-format
+msgid "Add commands"
+msgstr "Engadir ordes"
+
+#: indicatorhelper_mac.cpp:34
+#, kde-format
+msgid "Launching"
+msgstr "Iniciando"
+
+#: indicatorhelper_mac.cpp:84
+#, kde-format
+msgid "Launching daemon"
+msgstr "Iniciando o servizo"
+
+#: indicatorhelper_mac.cpp:93
+#, kde-format
+msgid "Waiting D-Bus"
+msgstr "Agardando por D-Bus"
+
+#: indicatorhelper_mac.cpp:110 indicatorhelper_mac.cpp:120
+#: indicatorhelper_mac.cpp:135
+#, kde-format
+msgid "KDE Connect"
+msgstr "KDE Connect"
+
+#: indicatorhelper_mac.cpp:111 indicatorhelper_mac.cpp:121
+#, kde-format
+msgid ""
+"Cannot connect to DBus\n"
+"KDE Connect will quit"
+msgstr ""
+"Non se pode conectar a DBus\n"
+"KDE Connect sairá"
+
+#: indicatorhelper_mac.cpp:135
+#, kde-format
+msgid "Cannot find kdeconnectd"
+msgstr "Non se pode atopar kdeconnectd"
+
+#: indicatorhelper_mac.cpp:140
+#, kde-format
+msgid "Loading modules"
+msgstr "Cargando os módulos"
+
+#: main.cpp:53
+#, kde-format
+msgid "KDE Connect Indicator"
+msgstr "Indicador de KDE Connect"
+
+#: main.cpp:55
+#, kde-format
+msgid "KDE Connect Indicator tool"
+msgstr "Ferramenta de indicador de KDE Connect"
+
+#: main.cpp:57
+#, kde-format
+msgid "(C) 2016 Aleix Pol Gonzalez"
+msgstr "© 2016 Aleix Pol Gonzalez"
+
+#: main.cpp:92
+#, kde-format
+msgid "Configure..."
+msgstr "Configurar…"
+
+#: main.cpp:114
+#, kde-format
+msgid "Pairing requests"
+msgstr "Solicitudes de emparellamento"
+
+#: main.cpp:119
+#, kde-format
+msgctxt "Accept a pairing request"
+msgid "Pair"
+msgstr "Emparellar"
+
+#: main.cpp:120
+#, kde-format
+msgid "Reject"
+msgstr "Rexeitar"
+
+#: main.cpp:126 main.cpp:136
+#, kde-format
+msgid "Quit"
+msgstr "Saír"
+
+#: main.cpp:155 main.cpp:179
+#, kde-format
+msgid "%1 device connected"
+msgid_plural "%1 devices connected"
+msgstr[0] "%1 dispositivo conectado"
+msgstr[1] "%1 dispositivos conectados"
+
+#: systray_actions/battery_action.cpp:28
+#, kde-format
+msgid "No Battery"
+msgstr "Non hai batería"
+
+#: systray_actions/battery_action.cpp:30
+#, kde-format
+msgid "Battery: %1% (Charging)"
+msgstr "Batería: %1% (cargando)"
+
+#: systray_actions/battery_action.cpp:32
+#, kde-format
+msgid "Battery: %1%"
+msgstr "Batería: %1%"
+
+#: systray_actions/connectivity_action.cpp:30
+#, kde-format
+msgctxt ""
+"The fallback text to display in case the remote device does not have a "
+"cellular connection"
+msgid "No Cellular Connectivity"
+msgstr "Non hai rede móbil"
+
+#: systray_actions/connectivity_action.cpp:33
+#, kde-format
+msgctxt ""
+"Display the cellular connection type and an approximate percentage of signal "
+"strength"
+msgid "%1  | ~%2%"
+msgstr "%1  | ~%2%"
+
+#~ msgid "Select file to send to '%1'"
+#~ msgstr "Seleccionar un ficheiro para enviar a «%1»"
